@@ -23,6 +23,18 @@ label {
   display: none;
 }
 
+.js-avg-word-length {
+    
+}
+
+.js-word-count {
+    
+}
+
+.js-unique-word-count {
+    
+}
+
 .text-report dt:after {
   content: ": ";
 }
