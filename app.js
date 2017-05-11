@@ -18,7 +18,6 @@ function getWordCount (wordCounter) {
 }
 
 function getUniqueWordCount (wordCounter) {
-    debugger;
     var words = Object.keys(wordCounter);
     return words.length;
 }
