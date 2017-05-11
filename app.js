@@ -36,7 +36,6 @@ function analyzeOnSubmit () {
         $(".js-word-count").text(getWordCount(wordCounter));
         $(".js-unique-word-count").text(getUniqueWordCount(wordCounter));
         $(".js-avg-word-length").text(getAvgWordLength(userText));
-        event.preventDefault();
     })
 }
 
